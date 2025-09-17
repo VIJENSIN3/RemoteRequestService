@@ -52,7 +52,6 @@ Tests in Tests folder. Run: dotnet test
 
 Units for validation, retry, response. Integration for HTTP with mock server.
 
-Gaps: PS tests mock only, no real EXO.
 
 **Test matrix:**
 
