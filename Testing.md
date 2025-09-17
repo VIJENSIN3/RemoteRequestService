@@ -1,4 +1,4 @@
-How to run locally
+**How to run locally**
 
 Open terminal in root folder.
 Go to Src: cd Src
@@ -16,7 +16,7 @@ Test PS: curl -X POST http://localhost:7281/api/powershell/Get-Mailbox -H "X-Aut
 For metrics: curl http://localhost:7281/metrics
 
 
-Testing
+**Testing**
 
 Tests in Tests folder. Run: dotnet test
 
@@ -31,5 +31,6 @@ Bad path HTTP 400 No 0 Error message Bad PS cmd PS 400 No 0 Invalid command HTTP
 Examples
 
 For http examples/http_request.json: { "note": "For GET https://jsonplaceholder.typicode.com/todos/1" }
+
 
 examples/http_response.json: { "RequestId": "abc123", "ExecutorType": "http", "Start": "2025-09-16T00:00:00Z", "End": "2025-09-16T00:00:01Z", "Status": "Success", "Attempts": [{"Attempt":1,"Outcome":"Success","DurationMs":100}], "Result": {"Status":200,"Body":"{"title":"test"}"} }
